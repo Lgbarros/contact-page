@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="./img/logo.png">
+
+    <title>Página de contato - Planeta Tech</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./img/logo1.png" alt="Logo da empresa Planeta Tech">
+        <h1>Se interresou pelo nosso projeto?</h1>
+        <p>Entre em contato conosco!</p>
+    </header>
+    
+    <main>
+        <section class="formulario">
+            <div class="container">
+                <div class="grid-item">
+                    <h4 class="contato">Informações de contato</h4>
+                    <p>Assim que o formulário de contato for enviado, nosso time responderá em até 24horas.</p>
+
+                    <p class="informacoes">
+                        <div class="info"><i class="fa-solid fa-phone"></i> +55 (14) 9 9660-2610</div>
+                        <div class="info"><i class="fa-solid fa-envelope"></i> lucasg.barros.94@gmail.com</div>
+                        <div class="info"><i class="fa-solid fa-location-dot"></i> Jaú - SP</div>
+                    </p>
+
+                    <div class="social">
+                        <i class="fa-brands fa-instagram"></i> 
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+
+                </div>
+                <div class="grid-item-dois">
+                    <form action="#" method="post">
+                        <fieldset>
+                            <fieldset class="grupo">
+                                <div class="campo">
+                                    <label for="nome">Nome*</label>
+                                    <input type="text" id="nome" name="nome" style="width: 10em" value="" placeholder="Seu nome" required>
+                                </div>
+                                <div class="campo">
+                                    <label for="snome">Sobrenome*</label>
+                                    <input type="text" id="snome" name="snome" style="width: 10em" value="" placeholder="Sobrenome" required>
+                                </div>
+                            </fieldset>
+                            <div class="campo">
+                                <label>Qual tipo de website você precisa?*</label>
+                                <label>
+                                    <input type="radio" name="website" value="ecommerce"> E-commerce
+                                </label>
+                                <label>
+                                    <input type="radio" name="website" value="institucional"> Institucional
+                                </label>
+                            </div>
+                            <fieldset class="grupo">
+                                <div class="campo">
+                                    <label for="email">E-mail</label>
+                                    <input type="text" id="email" name="email" style="width: 10em" value="" placeholder="seuemail@gmail.com.br" required>
+                                </div>
+                                <div class="campo">
+                                    <label for="telefone">Telefone</label>
+                                    <input type="text" id="telefone" name="telefone" style="width: 10em" value="" placeholder="(00)0-0000-0000" required>
+                                </div>
+                            </fieldset>
+                    
+                            <div class="campo">
+                                <label for="mensagem">Mensagem</label>
+                                <textarea rows="6" style="width: 21.5em" id="mensagem" name="mensagem" placeholder="Digite aqui sua mensagem"></textarea>
+                            </div>
+                    
+                            <button type="submit" name="submit">Enviar</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>Copyright © 2022. Lucas Gabriel de Almeida Barros</p>
+    </footer>
+</body>
+</html>
