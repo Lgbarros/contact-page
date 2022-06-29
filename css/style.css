@@ -1,7 +1,7 @@
 /*Componentes gerais da página (Body, Logotipo, Título, Paragrafo)*/
 
 header{
-    background-image: url("./img/background.jpg");
+    background-image: url("../img/background.jpg");
     width: 100%;
     position: absolute;
     left: 0;
@@ -9,7 +9,7 @@ header{
 }
 
 body{
-    background-image: url("./img/background2.GIF");
+    background-image: url("../img/background2.GIF");
     font-family: sans-serif,Tahoma,Verdana;
 }
 
@@ -71,7 +71,7 @@ form {
 .grid-item {
     width: 70%;
     height: 600px;
-    background-image: url("./img/Fundo-contato.jpg");
+    background-image: url("../img/Fundo-contato.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
