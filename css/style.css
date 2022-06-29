@@ -1,0 +1,262 @@
+/*Componentes gerais da página (Body, Logotipo, Título, Paragrafo)*/
+
+header{
+    background-image: url("../img/background.jpg");
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+body{
+    background-image: url("../img/background2.png");
+    font-family: sans-serif,Tahoma,Verdana;
+}
+
+main{
+    margin-top: 18%;
+}
+
+.logo {
+    width: 7%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 1px 2px #3e2092
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+    font-weight: 600;
+    text-shadow: 1px 2px #3e2092
+}
+
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #fa959d;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/*Fim dos Componentes gerais da página (Body, Logotipo, Título, Paragrafo)*/
+
+.formulario {
+    margin-bottom: 2%;
+}
+
+form {
+    padding-left: 12%;
+}
+
+.checkbox {
+    width: 20px;
+    height: 24px;
+    position: relative;
+    top: 6px;
+}
+
+
+.grid-item {
+    width: 70%;
+    height: 600px;
+    background-image: url("../img/Fundo-contato.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+    border-radius: 15px;
+  }
+
+.grid-item h4{
+    color:#FFF;
+}
+
+.grid-item p{
+    height: 10px;
+    margin-top: -5%;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 100;
+    text-shadow: 0px 0px black
+}
+
+.grid-item .informacoes{
+    height: 80px;
+}
+
+.grid-item .info{
+    height:100px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.fa-solid {
+    color: #fa949d;
+    padding-right: 5%;
+}
+
+.fa-brands{
+    justify-content: space-around; 
+}
+
+.grid-item .social{
+    text-align: left;
+    color:#FFF;
+}
+
+.grid-item .fa-brands:hover {
+    color:#fa949d;
+}
+
+
+.grid-item-dois {
+    width: 113%;
+    margin-left: -20%;
+    height: 600px;
+    /*background-image: url("./img/fundo-formulario.jpg");*/
+    background-color: #fa959d;
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 15px;
+}
+
+/* ESTILO DO FORMULÁRIO*/
+
+form label {
+    margin-left: 0px;
+    color: #06084b;
+    font-weight: bold;
+}
+
+fieldset {
+    border: 0;
+    padding-left: 0px;
+}
+
+body, input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+.grupo:before, .grupo:after {
+    content: " ";
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+    
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #666;
+    display: block;
+}
+
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="url"],
+.campo input[type="tel"],
+.campo select,
+.campo textarea {
+    padding: 0.2em;
+    padding-left: 0.7em;
+    border: 1px solid #3e2092;
+    width: 11em;
+    height: 2em;
+    border-radius: 10px;;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: #3e2092b7;
+}
+
+.campo input::placeholder,{
+    color: #000;
+}
+
+.campo label.checkbox {
+    color: #000;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.botao {
+    background-color: #3e2092!important;
+    border-radius: 5px;
+    font-size: 17px;
+    width: 27em;
+    color: #FFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+}
+
+.botao:hover {
+    background-color: #FFF!important;
+    border-radius: 5px;
+    font-size: 17px;
+    width: 27em;
+    color: #3e2092;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+}
+
+.botao, select, label.checkbox {
+    cursor: pointer;
+}
+
+/*FIM DO ESTILO DO FORMULÁRIO*/
+
+/* COMEÇO DO ESTILO DO RODAPÉ(FOOTER)*/
+
+footer {
+    width: 100%;
+    height:50px;
+    margin: 0 auto -50px;
+    position: absolute;
+    left: 0;
+    background-color: black;
+}
+
+footer p {
+    font-size: 15px;
+    margin: 0;position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    text-shadow: none;
+    transform: translate(-50%, -50%)
+}
+
+
+/* FIM DO ESTILO DO RODAPÉ(FOOTER)*/
