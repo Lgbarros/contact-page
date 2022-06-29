@@ -41,40 +41,45 @@
                         <fieldset>
                             <fieldset class="grupo">
                                 <div class="campo">
-                                    <label for="nome">Nome*</label>
-                                    <input type="text" id="nome" name="nome" style="width: 10em" value="" placeholder="Seu nome" required>
-                                </div>
-                                <div class="campo">
-                                    <label for="snome">Sobrenome*</label>
-                                    <input type="text" id="snome" name="snome" style="width: 10em" value="" placeholder="Sobrenome" required>
+                                    <label for="nome"></label>
+                                    <input type="text" id="nome" name="nome" style="width: 22em" value="" placeholder="Seu nome*" required>
                                 </div>
                             </fieldset>
-                            <div class="campo">
-                                <label>Qual tipo de website você precisa?*</label>
-                                <label>
-                                    <input type="radio" name="website" value="ecommerce"> E-commerce
-                                </label>
-                                <label>
-                                    <input type="radio" name="website" value="institucional"> Institucional
-                                </label>
-                            </div>
+                            <fieldset>
+                                <div class="campo">
+                                    <label for="snome"></label>
+                                    <input class="w3-input" type="text" style="width: 22em" value="" placeholder="Seu Sobrenome*" required>
+                                </div>
+                            </fieldset>
                             <fieldset class="grupo">
                                 <div class="campo">
-                                    <label for="email">E-mail</label>
-                                    <input type="text" id="email" name="email" style="width: 10em" value="" placeholder="seuemail@gmail.com.br" required>
+                                    <label for="email"></label>
+                                    <input type="text" id="email" name="email" style="width: 22em" value="" placeholder="seuemail@gmail.com.br*" required>
                                 </div>
+                            </fieldset>
+                            <fieldset>
                                 <div class="campo">
-                                    <label for="telefone">Telefone</label>
-                                    <input type="text" id="telefone" name="telefone" style="width: 10em" value="" placeholder="(00)0-0000-0000" required>
+                                    <label for="telefone"></label>
+                                    <input type="text" id="telefone" name="telefone" style="width: 22em" value="" placeholder="Telefone: (00)0-0000-0000*" required>
+                                </div>
+                            </fieldset>
+                            <fieldset class="grupo">
+                                <div class="campo">
+                                    <select style="width: 23em;">
+                                        <option selected disabled>Qual tipo de website você precisa?</option>
+                                        <option>Institucional</option>
+                                        <option>E-commerce</option>
+                                        <option>Imobiliária</option>
+                                    </select>
                                 </div>
                             </fieldset>
                     
                             <div class="campo">
-                                <label for="mensagem">Mensagem</label>
-                                <textarea rows="6" style="width: 21.5em" id="mensagem" name="mensagem" placeholder="Digite aqui sua mensagem"></textarea>
+                                <label for="mensagem"></label>
+                                <textarea rows="6" style="width: 22em; height: 3em;" id="mensagem" name="mensagem" placeholder="Digite aqui sua mensagem"></textarea>
                             </div>
                     
-                            <button type="submit" name="submit">Enviar</button>
+                            <input type="submit" class="botao" value="Enviar" />
                         </fieldset>
                     </form>
                 </div>
