@@ -1,4 +1,4 @@
-# Página de contato - PT-BR :brazil:
+# Página de contato - PT-BR
 
 Single page da área de contato feito para a empresa fictícia ***Planeta Tech***.
 
@@ -17,7 +17,7 @@ Para visualização do projeto, pode-se conferir no link do GitHub Pages: https:
 
 ##
 
-## Contact Page - EN :united_nations:
+## Contact Page - EN
 
 Single page of the contact area made for the fictitious company ***Planeta Tech***.
 
