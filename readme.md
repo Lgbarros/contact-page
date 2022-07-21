@@ -18,7 +18,7 @@ Para visualização do projeto, pode-se conferir no link do GitHub Pages: https:
 ##
 ##
 
-## Contact Page - EN
+# Contact Page - EN
 
 Single page of the contact area made for the fictitious company ***Planeta Tech***.
 
